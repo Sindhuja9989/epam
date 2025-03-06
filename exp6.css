@@ -1,0 +1,61 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #f0f2f5, #d4e3fc);
+    padding: 20px;
+}
+
+/* Centered Content */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 450px;
+    margin: auto;
+}
+
+/* Headings */
+h2 {
+    color: #007bff;
+}
+
+/* Button Styling */
+button {
+    margin-top: 10px;
+    padding: 12px 18px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Array Box */
+.array-box {
+    background: #eef3ff;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Styling */
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+#originalArray, #filteredArray {
+    font-size: 20px;
+    font-weight: bold;
+    color: #155724;
+}
