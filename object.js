@@ -1,25 +1,12 @@
-// Creating an object
-let person = {
-    name: "John",
-    age: 25,
-    city: "New York"
+let company = {
+    Name: "Dr. Pavan Kumar Pagadala",
+    Address: "Hyderabad",
+    Contact: "+91 9999999999",
+    Email: "p.pavankumar@klh.edu.in"
 };
 
-// Accessing properties
-console.log(person.name); // Output: John
+// Display the object information
+console.log("Information of variable company:", company);
 
-// Modifying properties
-person.age = 26;
-console.log(person.age); // Output: 26
-
-// Adding a new property
-person.country = "USA";
-console.log(person); 
-
-// Looping through an object
-for (let key in person) {
-    console.log(`${key}: ${person[key]}`);
-}
-
-// Checking if a property exists
-console.log("city" in person); // Output: true
+// Display the type of variable
+console.log("Type of variable company:", typeof company);
