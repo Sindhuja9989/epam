@@ -1,0 +1,90 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #f8f9fa, #d4edda);
+    padding: 20px;
+}
+
+/* Styled Container */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+}
+
+/* Headings */
+h1 {
+    color: #28a745;
+    font-size: 24px;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Input Fields */
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    margin: 10px;
+    padding: 10px 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* Result Box */
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #155724;
+}
+
+/* Print-specific Styling */
+@media print {
+    body {
+        background: white;
+    }
+
+    .container {
+        border: 2px solid black;
+        padding: 20px;
+    }
+
+    button, input {
+        display: none;
+    }
+
+    h1 {
+        color: black;
+    }
+
+    #print-area {
+        font-size: 22px;
+        border: 2px dashed black;
+        padding: 20px;
+        background: #f8f9fa;
+    }
+}
